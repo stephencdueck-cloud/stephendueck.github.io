@@ -1,81 +1,56 @@
-body {
-  font-family: 'Rubik', sans-serif;
-  margin: 0;
-  background: #fafafa;
-  color: #222;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* ---------- NAV ---------- */
+<title>Stephen Dueck</title>
 
-header {
-  position: sticky;
-  top: 0;
-  background: white;
-  border-bottom: 1px solid #ddd;
-}
+<link rel="stylesheet" href="style.css">
 
-nav {
-  max-width: 900px;
-  margin: auto;
-  padding: 15px;
-  text-align: center;
-}
+<!-- Rubik Font -->
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
 
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-}
+<body>
 
-nav a:hover {
-  opacity: 0.6;
-}
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio/illustration.html">Illustration</a>
+    <a href="portfolio/animation.html">Animation</a>
+    <a href="portfolio/commissions.html">Commissions</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-/* ---------- HERO ---------- */
+<main>
 
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-}
+<section class="hero">
+  <h1>Stephen Dueck</h1>
+  <p>Created & Creating</p>
+</section>
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
+<section class="about">
+  <div class="about-grid">
 
-/* ---------- ABOUT ---------- */
+    <img src="images/biopic.jpg" alt="Stephen Dueck">
 
-.about {
-  max-width: 900px;
-  margin: auto;
-  padding: 40px 20px;
-}
+    <div>
+      <h2>HEYO!</h2>
+      <p>
+        My Name is Stephen Dueck and I like to make stuff
+      </p>
+    </div>
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 30px;
-  align-items: center;
-}
+  </div>
+</section>
 
-.about img {
-  width: 100%;
-  border-radius: 8px;
-}
+</main>
 
-/* ---------- FOOTER ---------- */
+<footer>
+  <p>© Stephen Dueck</p>
+</footer>
 
-footer {
-  text-align: center;
-  padding: 40px;
-  opacity: 0.6;
-}
-
-/* ---------- MOBILE ---------- */
-
-@media (max-width: 700px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-}
+</body>
+</html>
