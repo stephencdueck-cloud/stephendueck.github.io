@@ -88,6 +88,22 @@ nav a:hover {
   width: 100%;
   border-radius: 8px;
 }
+.button {
+  background-color: #4afdcff; /* blue background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it block-level for padding */
+  font-size: 16px; /* Increase font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.button:hover {
+  background-color: #4C94D9; /* Darker blue on hover */
+}
 
 /* ---------- FOOTER ---------- */
 
