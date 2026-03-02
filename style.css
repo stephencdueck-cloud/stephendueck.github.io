@@ -118,8 +118,7 @@ nav a:hover {
 .links-grid img:hover {
   transform: scale(1.02);
 }
-  
-}
+
 .button {
   background-color: #7EBEFB; /* blue background */
   border: none; /* Remove border */
