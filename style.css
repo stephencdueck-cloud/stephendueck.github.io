@@ -88,6 +88,36 @@ nav a:hover {
   width: 100%;
   border-radius: 8px;
 
+/* ---------- newsletter section ---------- */
+
+.links {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.links-grid img {
+  width: 100%;
+  max-width: 400px;
+  justify-self: end;
+  border-radius: 10px;
+}
+
+  .links-grid img {
+  transition: transform 0.2s ease;
+}
+
+.links-grid img:hover {
+  transform: scale(1.02);
+}
+  
   /* ---------- LINKS ---------- */
   
 }
@@ -133,4 +163,17 @@ footer {
     margin-left: 0;
     margin-right: 20px;
   }
+}
+
+@media (max-width: 700px) {
+
+  .links-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .links-grid img {
+    justify-self: start;
+    margin-top: 20px;
+  }
+
 }
