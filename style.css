@@ -182,4 +182,28 @@ footer {
     margin-top: 20px;
   }
 
+/* ---------- CATEGORY GRID ---------- */
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.category-card {
+  text-decoration: none;
+  background: #f2f2f2;
+  padding: 60px 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  color: black;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  background: #e8e8e8;
 }
