@@ -216,3 +216,15 @@ footer {
 .gallery img:hover {
   transform: scale(1.03);
 }
+
+  /* ---------- PAGE LAYOUT ---------- */
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.page-title {
+  margin-bottom: 40px;
+  font-size: 2rem;
