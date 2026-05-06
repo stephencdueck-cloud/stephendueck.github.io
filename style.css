@@ -173,24 +173,21 @@ footer {
 /* ---------- GALLERY ---------- */
 
 .gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* two columns */
-  gap: 24px;
+  column-count: 2;
+  column-gap: 20px;
 }
-  
+
 .gallery img {
   width: 100%;
-  height: auto;
-  display: block;      
+  margin-bottom: 20px;
   border-radius: 10px;
+  display: block;
+  break-inside: avoid;
+  transition: transform 0.2s ease;
 }
 
 .gallery img:hover {
-  transform: scale(1.03);
-}
-
-.gallery {
-  align-items: start;
+  transform: scale(1.02);
 }
 
   section {
@@ -240,8 +237,10 @@ footer {
     margin-top: 20px;
   }
 
-  @media (max-width: 700px) {
+@media (max-width: 700px) {
   .gallery {
-    grid-template-columns: 1fr;
+    column-count: 1;
+  }
+
   }
 
