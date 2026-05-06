@@ -155,14 +155,51 @@ footer {
 
 .category-card {
   text-decoration: none;
-  background: #f2f2f2;
-  padding: 60px 20px;
+  padding: 80px 20px;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 500;
   border-radius: 12px;
   transition: all 0.2s ease;
-  color: black;
+  color: white;
+
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.category-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.category-card {
+  position: relative;
+  z-index: 1;
+}
+
+.category-card * {
+  position: relative;
+  z-index: 2;
+}
+
+.animation {
+  background-image: url("images/thumbnails/animation.jpg");
+}
+
+.illustration {
+  background-image: url("images/illustration/fab.png");
+}
+
+.fanart {
+  background-image: url("images/fanart/amelie.png");
+}
+
+.commissions {
+  background-image: url("images/commissions/period.png");
 }
 
 .category-card:hover {
