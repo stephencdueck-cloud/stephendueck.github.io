@@ -148,9 +148,10 @@ footer {
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
-  margin-top: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  align: center;
+  gap: 50px;
+  margin-top: 80px;
 }
 
 .category-card {
