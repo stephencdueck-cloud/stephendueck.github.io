@@ -211,7 +211,7 @@ footer {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   max-width: 1000px;
   margin: 80px auto;
   gap: 25px;
@@ -254,21 +254,22 @@ footer {
 
 /* backgrounds */
 
-.animation {
+.2GB summer {
   background-image: url("images/animation.png");
 }
 
-.illustration {
+.worlds away {
   background-image: url("images/illustration/fab.png");
 }
 
-.fanart {
+.the hero's ernie {
   background-image: url("images/fanart/flow.jpg");
 }
 
-.commissions {
-  background-image: url("images/commissions/periodpiece.png");
+.music {
+  background-image: url("images/fanart/flow.jpg");
 }
+
 
   
 /* ---------- GALLERY ---------- */
