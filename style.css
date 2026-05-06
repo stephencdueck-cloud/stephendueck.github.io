@@ -146,8 +146,6 @@ footer {
 
 /* ---------- CATEGORY GRID ---------- */
 
-/* ---------- CATEGORY GRID ---------- */
-
 .category-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
