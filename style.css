@@ -150,10 +150,10 @@ footer {
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* always 2 per row */
-  max-width: 900px;                      /* keeps them centered */
-  margin: 80px auto;                     /* centers grid */
-  gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 900px;                    
+  margin: 80px auto;                    
+  gap: 80px;
 }
 
 /* ---------- CATEGORY CARD ---------- */
@@ -193,13 +193,6 @@ footer {
 
 .category-card:hover {
   transform: translateY(-6px) scale(1.02);
-}
-
-.category-card::before {
-  background: linear-gradient(
-    rgba(255,255,255,0.6),
-    rgba(255,255,255,0.8)
-  );
 }
 
 .animation {
