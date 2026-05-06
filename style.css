@@ -119,6 +119,19 @@ nav a:hover {
   transition: transform 0.2s ease;
 }
 
+
+.links-grid img2 {
+  width: 100%;
+  max-width: 600px;
+  justify-self: end;
+  border-radius: 10px;
+}
+
+  .links-grid img2 {
+  transition: transform 0.2s ease;
+}
+
+
 .button {
   background-color: #7EBEFB; /* blue background */
   border: none; /* Remove border */
