@@ -148,31 +148,28 @@ footer {
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  max-width: 1000px;                 
-  margin: 80px auto;                    
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1000px;
+  margin: 80px auto;
   gap: 25px;
+}
 
 /* ---------- CATEGORY CARD ---------- */
 
 .category-card {
   text-decoration: none;
-  height: 220px;                    
+  height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
-
   font-size: 1.6rem;
   font-weight: 600;
-  color: black;                      
-
+  color: black;
   border-radius: 16px;
   overflow: hidden;
   position: relative;
-
   background-size: cover;
   background-position: center;
-
   transition: all 0.25s ease;
 }
 
@@ -180,7 +177,7 @@ footer {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255,255,255,0.6); /
+  background: rgba(255,255,255,0.6); /* ✅ fixed */
 }
 
 .category-card span {
@@ -191,6 +188,8 @@ footer {
 .category-card:hover {
   transform: translateY(-6px) scale(1.02);
 }
+
+/* backgrounds */
 
 .animation {
   background-image: url("images/animation.png");
@@ -207,6 +206,7 @@ footer {
 .commissions {
   background-image: url("images/commissions/periodpiece.png");
 }
+
   
 /* ---------- GALLERY ---------- */
 
@@ -271,11 +271,16 @@ footer {
     margin-top: 20px;
   }
 
+/* ---------- MOBILE FIXES ---------- */
+
+@media (max-width: 800px) {
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 700px) {
   .gallery {
-
-    
-@media (max-width: 800px) {
-.category-grid {
-grid-template-columns: repeat(2, 1fr);
+    column-count: 1;
+  }
 }
