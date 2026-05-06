@@ -150,11 +150,10 @@ footer {
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  max-width: 900px;                    
+  grid-template-columns: repeat(4, 1fr); 
+  max-width: 1000px;                 
   margin: 80px auto;                    
-  gap: 80px;
-}
+  gap: 25px;
 
 /* ---------- CATEGORY CARD ---------- */
 
@@ -276,8 +275,11 @@ footer {
 
 @media (max-width: 700px) {
   .gallery {
-    column-count: 1;
-  }
 
-  }
+    
+@media (max-width: 800px) {
+.category-grid {
+grid-template-columns: repeat(2, 1fr);
+}
 
+}
