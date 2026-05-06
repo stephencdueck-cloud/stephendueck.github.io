@@ -219,10 +219,6 @@ footer {
   transition: transform 0.2s ease;
 }
 
-.gallery img:hover {
-  transform: scale(1.02);
-}
-
   section {
   margin-bottom: 80px;
 }
