@@ -169,13 +169,6 @@ footer {
   overflow: hidden;
 }
 
-.category-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.35);
-}
-
 .category-card {
   position: relative;
   z-index: 1;
@@ -187,7 +180,7 @@ footer {
 }
 
 .animation {
-  background-image: url("images/thumbnails/animation.jpg");
+  background-image: url("images/animation.png");
 }
 
 .illustration {
@@ -195,11 +188,11 @@ footer {
 }
 
 .fanart {
-  background-image: url("images/fanart/amelie.png");
+  background-image: url("images/fanart/amelie.jpg");
 }
 
 .commissions {
-  background-image: url("images/commissions/period.png");
+  background-image: url("images/commissions/periodpiece.png");
 }
 
 .category-card:hover {
