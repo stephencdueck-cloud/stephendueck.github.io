@@ -1,24 +1,4 @@
-<main class="page">
-  <div class="project-grid">
-
-    <a href="worlds.html" class="project-card worlds">
-      <span>worlds away</span>
-    </a>
-
-    <a href="ernie.html" class="project-card the">
-      <span>the hero's ernie</span>
-    </a>
-
-    <a href="2gb.html" class="project-card summer">
-      <span>2gb summer</span>
-    </a>
-
-    <a href="music.html" class="project-card music">
-      <span>music</span>
-    </a>
-
-  </div>
-</main>body {
+body {
   font-family: 'Rubik', sans-serif;
   margin: 0;
   background: #fafafa;
@@ -288,7 +268,7 @@ footer {
 /* backgrounds */
 
 .summer {
-  background-image: url("https://via.placeholder.com/400");
+  background-image: url("images/the-heros-ernie/banner.png");
 }
 
 .worlds {
