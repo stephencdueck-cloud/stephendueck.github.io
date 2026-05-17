@@ -261,7 +261,7 @@ footer {
   z-index: 2;
 }
 
-.category-card:hover {
+.project-card:hover {
   transform: translateY(-6px) scale(1.02);
 }
 
