@@ -127,6 +127,12 @@ nav a:hover {
   border: none;
 }
 
+.center-text {
+
+  text-align: center;
+
+}
+
 /* ---------- newsletter section ---------- */
 
 .links {
